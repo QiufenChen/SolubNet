@@ -1,0 +1,20 @@
+Structure,Exptl,Name,,,,,,,,,,,,
+CC1=CC(=O)N(N1C)C2=CC=CC=C2,-0.56,antipyrine,,,,,-0.56,-2.6506,,,,0,-0.56,-1.7778
+CC(=O)OC1=CC=CC=C1C(=O)O,-1.72,asprin,,,,,-1.72,-1.5733,,,,1,-1.72,-1.2669
+CCNC1=NC(=NC(=N1)Cl)NC(C)C,-3.85,atrazine,,,,,-3.85,-2.7806,,,,2,-3.85,-2.9109
+CCOC(=O)C1=CC=C(C=C1)N,-2.32,benzocaine,,,,,-2.32,-2.2165,,,,3,-2.32,-1.6393
+C1C2C(C(C1Cl)Cl)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl,-6.86,chlordane,,,,,-6.86,-3.3436,,,,4,-6.86,-8.3127
+CCOP(=S)(OCC)OC1=NC(=C(C=C1Cl)Cl)Cl,-5.49,chlorpyrifos,,,,,-5.49,-7.5561,,,,5,-5.49,-6.064
+CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,-3.76,diazepam,,,,,-3.76,-3.4561,,,,6,-3.76,-3.1012
+CCOP(=S)(OCC)OC1=NC(=NC(=C1)C)C(C)C,-3.64,diazinon,,,,,-3.64,-6.9141,,,,7,-3.64,-4.7977
+CN(C)C(=O)NC1=CC(=C(C=C1)Cl)Cl,-3.8,diuron,,,,,-3.8,-2.8547,,,,8,-3.8,-2.4727
+C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl,-4.64,lindane,,,,,-4.64,-0.5463,,,,9,-4.64,-9.3069
+CCOC(=O)CC(C(=O)OCC)SP(=S)(OC)OC,-3.37,malathion,,,,,-3.37,-7.0023,,,,10,-3.37,-4.1959
+C1C(=O)NC(=O)N1/N=C/C2=CC=C(O2)[N+](=O)[O-],-3.47,nitrofurantoin,,,,,-3.47,-1.7484,,,,11,-3.47,-1.1854
+CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],-4.66,parathion,,,,,-4.66,-6.6621,,,,12,-4.66,-5.2457
+CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2,-2.34,phenobarbital,,,,,-2.34,-5.4422,,,,13,-2.34,-2.9795
+C1=CC=C2C(=C1)C(=O)OC2(C3=CC=C(C=C3)O)C4=CC=C(C=C4)O,-2.9,phenolphthalein,,,,,-2.9,-4.1248,,,,14,-2.9,-3.4126
+C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3,-3.99,phenytoin,,,,,-3.99,-4.1836,,,,15,-3.99,-2.5126
+CCCCC[C@@H](/C=C/[C@H]1[C@@H](CC(=O)[C@@H]1C/C=C\CCCC(=O)O)O)O,-2.47,prostaglandin E2,,,,,-2.47,-3.0468,,,,16,-2.47,-2.8103
+C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=CC(=O)CC[C@]34C,-4.09,testosterone,,,,,-4.09,-3.244,,,,17,-4.09,-2.7563
+CN1C2=C(C(=O)N(C1=O)C)NC=N2,-1.39,theophylline,,,,,-1.39,-2.3117,,,,18,-1.39,-1.3753
