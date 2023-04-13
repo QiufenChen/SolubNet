@@ -62,7 +62,7 @@ In this project, the three benchmark datasets (Delaney1144, Hou1289, and Cui9943
 ```
 
 ### Contributing to the project
-Any pull requests or issues are welcome.
+Any pull requests or issues are welcome  to contact chenqf829@foxmail.com.
 
 ### Progress
 README for running SolubNet.
