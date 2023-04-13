@@ -29,18 +29,15 @@ In this project, the three benchmark datasets (Delaney1144, Hou1289, and Cui9943
 #### Evaluate model
 1. If you want to use the SolubNetA:
 ```python
-  cd SolubNetA
-  python test.py
+  python SolubNetA/test.py
 ```
 2. If you want to use the SolubNetD:
 ```python
-  cd SolubNetD
-  python test.py
+  python SolubNetD/ test.py
 ```
 3. If you want to use the SolubNetC:
 ```python
-  cd SolubNetC
-  python test.py
+  python SolubNetC/test.py
 ```
 
 ### Contributing to the project
