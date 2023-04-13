@@ -66,6 +66,3 @@ df_test.to_csv('dataset/DelaneyTest.csv', index=False)
 solubNet = model.GCNNet(num_features, num_labels, feature_str)
 Utility.Train(solubNet, data_train, data_valid, learning_rate, batch_size, max_epochs, output_freq, device)
 
-# project_path = os.getcwd()
-# model_path = project_path + '/solubNet.pt'
-# solubNet.load_state_dict(th.load(model_path, map_location='cpu'))

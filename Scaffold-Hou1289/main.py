@@ -27,8 +27,8 @@ output_freq = 1
 # device = th.device("cuda:0" if th.cuda.is_available() else "cpu")
 device = th.device("cpu")
 
-TrainFile = "dataset/DelaneyTrain.csv"
-ValidFile = "dataset/DelaneyValid.csv"
+TrainFile = "dataset/HouTrain.csv"
+ValidFile = "dataset/HouValid.csv"
 TrainData = Utility.LoadGaoData(TrainFile, num_features, feature_str, device)
 ValidData = Utility.LoadGaoData(ValidFile, num_features, feature_str, device)
 

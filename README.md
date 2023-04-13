@@ -31,15 +31,15 @@ In this project, the three benchmark datasets (Delaney1144, Hou1289, and Cui9943
 ### Train model
 1. If you want to train the SolubNetD:
 ```python
-  python SolubNetD/mian.py > train.log
+  python SolubNetD/TenFold.py > train.log
 ```
 2. If you want to train the SolubNetH:
 ```python
-  python SolubNetH/mian.py > train.log
+  python SolubNetH/TenFold.py > train.log
 ```
 3. If you want to train the SolubNetC:
 ```python
-  python SolubNetC/mian.py > train.log
+  python SolubNetC/TenFold.py > train.log
 ```
 
 ### Evaluate model
