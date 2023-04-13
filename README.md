@@ -13,3 +13,4 @@ Here, we use layer-wise relevance propagation (LRP) to explain how input feature
 
 <p align="center">Figure 2 The workflow of SolubNet predictive model with interpretability</p>
 
+## SolubNet Model
