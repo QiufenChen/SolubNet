@@ -21,7 +21,9 @@ scikit-learn==1.2.2 \
 dgl==1.0.1
 
 ### Download SolubNet
-git clone https://github.com/QiufenChen/SolubNet.git
+```bash
+  git clone https://github.com/QiufenChen/SolubNet.git
+```
 
 ### Dataset Preparation
 In this project, the three benchmark datasets (Delaney1144, Hou1289, and Cui9943) are employed to train the SolubNet (10-fold cross validation), named as SolubNetD, SolubNetH, and SolubNetC respectively. Three independent test sets (Yalk21, Cui62, and Klop120) are used to verify the generalization ability of the model. If you want to directly use our model to test new data, please change the data path in test.py yourself. Please use the best model we have reported in the paper.
