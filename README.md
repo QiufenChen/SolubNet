@@ -14,17 +14,34 @@ Here, we use layer-wise relevance propagation (LRP) to explain how input feature
 
 ## Quick Start
 ### Requirements
-Python 3.6+
-pytorch == 2.7.0
+Python==3.8
+pytorch==1.12.1 
+rdkit==2022.9.5
+scikit-learn==1.2.2
+dgl==1.0.1
 
 ### Download SolubNet
-git clone https://github.com/Liuzhe30/AttADR
+git clone https://github.com/QiufenChen/SolubNet.git
 
 ### Dataset Preparation
-In this project, the three datasets corresponding to the three classification tasks are dataset_task1 , dataset_task2 and dataset_task3 respectively.
+In this project, the three benchmark datasets (Delaney1144, Hou1289, and Cui9943) are employed to train the SolubNet (10-fold cross validation), named as SolubNetA, SolubNetD, and SolubNetC respectively. Three independent test sets (Yalk21, Cui62, and Klop120) are used to verify the generalization ability of the model. If you want to directly use our model to test new data, please change the data path in test.py yourself. Please use the best model we have reported in the paper.
 
 #### Evaluate model
-python3 source/evaluate_AttADR.py
+1. If you want to use the SolubNetA:
+```python
+  cd SolubNetA
+  python test.py
+```
+2. If you want to use the SolubNetD:
+```python
+  cd SolubNetD
+  python test.py
+```
+3. If you want to use the SolubNetC:
+```python
+  cd SolubNetC
+  python test.py
+```
 
 ### Contributing to the project
 Any pull requests or issues are welcome.
