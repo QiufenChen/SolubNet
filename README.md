@@ -28,18 +28,37 @@ dgl==1.0.1
 ### Dataset Preparation
 In this project, the three benchmark datasets (Delaney1144, Hou1289, and Cui9943) are employed to train the SolubNet (10-fold cross validation), named as SolubNetD, SolubNetH, and SolubNetC respectively. Three independent test sets (Yalk21, Cui62, and Klop120) are used to verify the generalization ability of the model. If you want to directly use our model to test new data, please change the data path in test.py yourself. Please use the best model we have reported in the paper.
 
+### Train model
+1. If you want to train the SolubNetD:
+```python
+  python SolubNetD/mian.py > train.log
+```
+2. If you want to train the SolubNetH:
+```python
+  python SolubNetH/mian.py > train.log
+```
+3. If you want to train the SolubNetC:
+```python
+  python SolubNetC/mian.py > train.log
+```
+
 ### Evaluate model
-1. If you want to use the SolubNetD:
+1. If you want to test the SolubNetD:
 ```python
-  python SolubNetD/test.py
+  python SolubNetD/test.py > test.log
 ```
-2. If you want to use the SolubNetH:
+2. If you want to test the SolubNetH:
 ```python
-  python SolubNetH/ test.py
+  python SolubNetH/test.py > test.log
 ```
-3. If you want to use the SolubNetC:
+3. If you want to test the SolubNetC:
 ```python
-  python SolubNetC/test.py
+  python SolubNetC/test.py > test.log
+```
+
+### Interpretability of SolubNetC
+```python
+  python SolubNetC/drawAtomWeight.py
 ```
 
 ### Contributing to the project
