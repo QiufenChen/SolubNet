@@ -10,7 +10,24 @@ Figure 1 illustrates the structure of SoubNet. It is a three-layer TAGCN. Each l
 Here, we use layer-wise relevance propagation (LRP) to explain how input features are relevant to the decision of neural network. LRP is a powerful method that is able to unambiguously decompose the output into atomic contributions. Figure 2(C) demonstrates the interpretation process of SolubNet prediction.
 
 ![Figure-2](https://user-images.githubusercontent.com/52032167/231806087-e39814df-b401-4cd0-8c05-dc0f7663dd23.png)
-
 <p align="center">Figure 2 The workflow of SolubNet predictive model with interpretability</p>
 
-## SolubNet Model
+## Quick Start
+### Requirements
+Python 3.6+
+pytorch == 2.7.0
+
+### Download SolubNet
+git clone https://github.com/Liuzhe30/AttADR
+
+### Dataset Preparation
+In this project, the three datasets corresponding to the three classification tasks are dataset_task1 , dataset_task2 and dataset_task3 respectively.
+
+#### Evaluate model
+python3 source/evaluate_AttADR.py
+
+### Contributing to the project
+Any pull requests or issues are welcome.
+
+### Progress
+README for running SolubNet.
