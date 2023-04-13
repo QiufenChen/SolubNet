@@ -14,10 +14,10 @@ Here, we use layer-wise relevance propagation (LRP) to explain how input feature
 
 ## Quick Start
 ### Requirements
-Python==3.8\\
-pytorch==1.12.1 \\
-rdkit==2022.9.5\\
-scikit-learn==1.2.2\\
+Python==3.8 \
+pytorch==1.12.1 \
+rdkit==2022.9.5 \
+scikit-learn==1.2.2 \
 dgl==1.0.1
 
 ### Download SolubNet
