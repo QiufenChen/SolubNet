@@ -5,12 +5,12 @@ A self-developed graph convolutional network (GCN) architecture, SolubNet, for d
 Figure 1 illustrates the structure of SoubNet. It is a three-layer TAGCN. Each layer contains 32 units and a rectified linear unit (ReLU) activation function. The detailed workflow is given in Figure 2(A) and Figure 2(B).
 
 ![Figure-1](https://user-images.githubusercontent.com/52032167/231805942-5de0aee4-ca8a-4eac-88c0-6719a86be7b2.png)
-<p align="center">Figure 1 The structure of SolubNet</p>
+<p align="center">**Figure 1** The structure of SolubNet</p>
 
 Here, we use layer-wise relevance propagation (LRP) to explain how input features are relevant to the decision of neural network. LRP is a powerful method that is able to unambiguously decompose the output into atomic contributions. Figure 2(C) demonstrates the interpretation process of SolubNet prediction.
 
 ![Figure-2](https://user-images.githubusercontent.com/52032167/231806087-e39814df-b401-4cd0-8c05-dc0f7663dd23.png)
-<p align="center">Figure 2 The workflow of SolubNet predictive model with interpretability</p>
+<p align="center">**Figure 2** The workflow of SolubNet predictive model with interpretability</p>
 
 ## Quick Start
 ### Requirements
