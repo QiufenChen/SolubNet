@@ -81,8 +81,5 @@ year = {2023},
 issn = {2949-7477},
 doi = {https://doi.org/10.1016/j.aichem.2023.100010},
 url = {https://www.sciencedirect.com/science/article/pii/S2949747723000106},
-author = {Qiufen Chen and Yuewei Zhang and Peng Gao and Jun Zhang},
-keywords = {Drug aqueous solubility, Topology adaptive graph convolutional networks, Layer-wise relevance propagation},
-abstract = {As increasingly more data science-driven approaches have been applied for compound properties predictions in the domain of drug discovery, such kinds of methods have displayed considerable accuracy compared to conventional ones. In this work, we proposed an interpretable graph learning representation model, SolubNet, for drug aqueous solubility prediction. The comprehensive evaluation demonstrated that SolubNet can successfully capture the quantitative structure-property relationship and can be interpreted with layer-wise relevance propagation (LRP) algorithm regarding how prediction values are generated from original input structures. The key advantage of SolubNet lies in the fact that it includes 3 layers of Topology Adaptive Graph Convolutional Networks which can efficiently perceive chemical local environments. SolubNet showed high performance in several tasks for drugs’ aqueous solubility prediction. LRP revealed that SolubNet can identify high and low polar regions of a given molecule, assigning them reasonable weights to predict the final solubility, in a way highly compatible with chemists’ intuition. We are confident that such a flexible yet interpretable and accurate tool will largely enhance the efficiency of drug discovery, and will even contribute to the methodology development of computational pharmaceutics.}
+author = {Qiufen Chen and Yuewei Zhang and Peng Gao and Jun Zhang}}
 ```
-}
